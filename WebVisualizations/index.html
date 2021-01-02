@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Project 11:  Web Design Challenge by Craig Fulgency. This project provides an analysis of weather factors as one moves closer to the the equator. Technology used includes: HTML, CSS, Bootstrap, Google Fonts, OpneWeatherMap API, Pandas and MatPlotLib.">
 
         <title>Craig Fulgency | Web Design Challenge</title>
 
@@ -12,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-        <!-- Bring in our bootstrap stylesheet -->
+        <!-- Bootstrap Stylesheet -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -24,7 +25,7 @@
     </head>
 
     <body>
-        <!-- Define the Navigation Bar --> 
+        <!-- Navigation Bar --> 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand d-inline p-2 ml-5 bg-primary text-white mb-0 pb-0" href="./index.html">Latitude</a>
@@ -63,8 +64,7 @@
         </div>
       </nav>
   
-  <!-- define the container to hold the temperature plot with description and the visualizations plots -->
-  <!-- this first section creates the example plot and the description -->   
+  <!-- Example container with Temperature Plot and Description -->  
   
     <div class="container">
       <section class="row">
@@ -74,12 +74,12 @@
               <hr>
               <img src="./Visualizations/Fig1.png" alt="Latitude vs. Max Temperature" id="landing-image">
   
-              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-              <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+              <p>The purpose of this project was to analyze changes in weather factors as you approach the equater. The analysis involved, first, pulling data from the OpenWeatherMap API, then assembling a dataset of over 500 cities located at various latitudes.</p>
+              <p>Finally, after assembling the dataset, Matplotlib was utilized to plot specific weather factors vs. latitude. The weather factors included: temperature, cloudiness, wind speed and humidity. This Website provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
             </div>
           </div>
         
-  <!-- this section creates the visualization plots on the right --> 
+  <!-- Visualization Plots module on the right --> 
   
         <div class="col-lg-5 col-md-12">
           <div class="visplot-content">
