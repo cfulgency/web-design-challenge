@@ -5,13 +5,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Max Temperature | Web Design Challenge</title>
+    <meta name="description" content="Project 11:  Web Design Challenge by Craig Fulgency. This page provides a weather analysis of max temperature as one moves closer to the the equator. Technology used includes: HTML, CSS, Bootstrap, Google Fonts, OpneWeatherMap API, Pandas and MatPlotLib.">
 
      <!-- Google Fonts -->
 
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- Bring in our bootstrap stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -24,7 +25,7 @@
 
   <body>
 
-   <!-- Define the Navigation Bar --> 
+   <!-- Navigation Bar --> 
      
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand d-inline p-2 ml-5 bg-primary text-white mb-0" href="./index.html">Latitude</a>
@@ -65,8 +66,7 @@
     </nav>
 
    
-<!-- define the container to hold the temperature plot with description and the visualiZations plots -->
-<!-- this first section creates the example plot and the description -->   
+<!-- Main Container with Max Temperature Plot and Description -->  
 
   <div class="container">
     <section class="row">
@@ -77,16 +77,13 @@
             <img src="./Visualizations/Fig1.png" alt="Latitude vs. Max Temperature" id="other-image">
 
             <p>
-              As expected, the max temperature increases as one approaches the equator (0 Degrees Latitude) and gets 
-              colder as you approach the northern (+90) and southern(-90) poles.  The plot seems to suggest that 
-              temperature at the southern pole is not as extreme, however, this is misleading as there are no 
-              measurment shows for lattitude below -60, as there are very few cities in this region.
+                As you would expect, max temperature increases as you approach the earth’s equator (0 Degrees Latitude) and gets colder as you approach the northern (+90 Degrees Latitude) and southern (-90 Degrees Latitude) poles.  Interestingly, the Southern Hemisphere appears to have milder temperatures as you approach the southern pole. This is because there is far less land mass in the southern hemisphere and water temperatures warm and cool much slower than land temperatures. Also note that the South Pole is much colder than the North Pole as the south is an actual land mass and the north is simply ice-over ocean.
             </p>
             
           </div>
         </div>
       
-<!-- this section creates the visualization plots on the right --> 
+<!-- Visualization Plots module on the right -->
 
       <div class="col-lg-5 col-md-12">
         <div class="visplot-content">
