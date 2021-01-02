@@ -8,6 +8,7 @@ body{
 	padding: 10px 30px 5px;
 	color: black;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .visplot-content {
@@ -16,6 +17,7 @@ body{
 	padding: 10px 30px 40px;
 	color: black;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .compplot-content {
@@ -26,6 +28,7 @@ body{
 	padding: 10px 30px 40px;
 	color: black;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 .plot-header {
 	padding-top: 15px; 
@@ -73,6 +76,8 @@ body{
 	padding: 10px 10px 10px 10px;
 	color: black;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
 }
 
 tr:nth-child(odd) {
