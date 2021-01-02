@@ -5,13 +5,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Cloudiness | Web Design Challenge</title>
+    <meta name="description" content="Project 11:  Web Design Challenge by Craig Fulgency. This page provides a weather analysis of cloudiness as one moves closer to the the equator. Technology used includes: HTML, CSS, Bootstrap, Google Fonts, OpneWeatherMap API, Pandas and MatPlotLib.">
 
     <!-- Google Fonts -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- Bring in our bootstrap stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -24,7 +25,7 @@
 
   <body>
 
-   <!-- Define the Navigation Bar -->   
+   <!-- Navigation Bar -->   
    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand d-inline p-2 ml-5 bg-primary text-white mb-0" href="./index.html">Latitude</a>
@@ -66,8 +67,7 @@
     </nav>
 
    
-<!-- define the container to hold the temperature plot with description and the visualizations plots -->
-<!-- this first section creates the example plot and the description -->   
+<!-- Main Container with Cloudiness Plot and Description -->  
 
   <div class="container">
     <section class="row">
@@ -77,20 +77,13 @@
             <hr>
             <img src="./visualizations/Fig3.png" alt="Latitude vs. Cloudiness" id="other-image">
 
-            <p>
-              The level of cloudiness in a city does not appear to be related to the lattitude.  There
-              seems to be a fairly consistent distribution of cloudiness across the different latitudes.  
-              However, this may be related to the data that was used.  It was a single snapshot of weather
-              conditions on a particular date and time.  I suspect that if we collected data over a period of
-              time, we might see a relationship.  However, this is just a hypothesis at this time.
-          
-            
+            <p>The analysis reveals that city cloudiness levels do not appear to be related to city latitude as the levels of cloudiness appear to be consistent across all latitudes in the city dataset. However, this analysis may be influenced by or directly related to the dataset used. Since this dataset was of a single snapshot in time for all city data, multiple dates, an equal distribution of longitude and seasonal weather patterns may impact additional analysis. The results, therefore, are inconclusive and further study is required.
             </p>
             
           </div>
         </div>
       
-<!-- this section creates the visualization plots on the right --> 
+<!-- Visualization Plots module on the right --> 
 
       <div class="col-lg-5 col-md-12">
         <div class="visplot-content">
