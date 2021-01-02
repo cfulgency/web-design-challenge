@@ -5,13 +5,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Humidity | Web Design Challenge</title>
+    <meta name="description" content="Project 11:  Web Design Challenge by Craig Fulgency. This page provides a weather analysis of humidity as one moves closer to the the equator. Technology used includes: HTML, CSS, Bootstrap, Google Fonts, OpneWeatherMap API, Pandas and MatPlotLib.">
 
      <!-- Google Fonts -->
 
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- Bring in our bootstrap stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -24,7 +25,7 @@
 
   <body>
 
-   <!-- Define the Navigation Bar --> 
+   <!-- Navigation Bar --> 
      
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand d-inline p-2 ml-5 bg-primary text-white mb-0" href="./index.html">Latitude</a>
@@ -65,8 +66,7 @@
     </nav>
 
    
-<!-- define the container to hold the temperature plot with description and the visualizations plots -->
-<!-- this first section creates the example plot and the description -->   
+<!-- Main Container with Hunidity Plot and Description --> 
 
   <div class="container">
     <section class="row">
@@ -77,17 +77,13 @@
             <img src="./Visualizations/Fig2.png" alt="Latitude vs. Humidity" id="other-image">
 
             <p>
-              The humidity level does not appear to be strongly correlated with latitude based on this plot.  
-              There is some evidence that cities at the higher latitude are more humid.  However, I don't believe
-              we can come to a conclusion based on this plot, as the underlying data was just a snapshot
-              of wether conditions based on a particular day and time.  Further research would be needed
-              to make valid conclusion.
+                Based on the plot data, humidity levels do not appear to have any correlation with latitude. There is, however, some anecdotal evidence that high altitude cities may experience greater levels of humidity.  The evidence, however, is not conclusive enough to make a decision either way. Further research is required that could include the factors of altitude, proximity to large bodies of water, coastal versus non-coastal cities and relative isolation within a land mass.
             </p>
             
           </div>
         </div>
       
-<!-- this section creates the visualization plots on the right --> 
+<!-- Visualization Plots module on the right -->
 
       <div class="col-lg-5 col-md-12">
         <div class="visplot-content">
